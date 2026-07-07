@@ -811,6 +811,70 @@
             }
         }
 
+        /* Languages */
+        .languages-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 1.5rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .language-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem 1.8rem;
+            transition: all 0.3s ease;
+        }
+
+        .language-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent-primary);
+            box-shadow: 0 20px 60px rgba(255, 107, 53, 0.15);
+        }
+
+        .language-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.8rem;
+        }
+
+        .language-name {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .language-level {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            color: var(--accent-secondary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .language-skills {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            margin-bottom: 1rem;
+        }
+
+        .proficiency-bar {
+            width: 100%;
+            height: 6px;
+            background: var(--bg-secondary);
+            border-radius: 3px;
+            overflow: hidden;
+        }
+
+        .proficiency-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent-primary), var(--accent-tertiary));
+            border-radius: 3px;
+        }
+
         /* Footer */
         footer {
             background: var(--bg-secondary);
@@ -930,6 +994,7 @@
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#community">Community</a></li>
                 <li><a href="#podcast">Podcast</a></li>
+                <li><a href="#languages">Languages</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="https://1drv.ms/b/c/180d035397ee9a9f/IQDDSyKbejrVQJuhCxEtTcPmAcE-wbhYxN0T78dHNkyCxW4?e=vh9fZC" target="_blank" style="color: var(--accent-primary);">Resume</a></li>
             </ul>
@@ -980,6 +1045,8 @@
                             <li>Providing application and cloud support for business-critical production systems</li>
                             <li>Ensuring high availability, monitoring, and incident resolution across cloud environments</li>
                             <li>Applying AWS operations and site reliability expertise to maintain stable, scalable infrastructure</li>
+                            <li>Administering and troubleshooting Linux servers, including log analysis, service management, and performance checks for production workloads</li>
+                            <li>Using Git for version control of scripts and configuration, maintaining change history and enabling collaborative, reviewable updates</li>
                         </ul>
                     </div>
                 </div>
@@ -1021,7 +1088,7 @@
                 <div class="project-card">
                     <div class="project-header">
                         <h3 class="project-title">AWS Cloud Infrastructure</h3>
-                        <span class="project-period">Mar 2024 - Present</span>
+                        <span class="project-period">Mar 2024 - June 2026</span>
                     </div>
                     <p class="project-description">
                         Managed and supported production AWS environments with focus on scalability, fault tolerance, and high availability. Led cloud migration initiatives from on-premises to AWS, supporting environment readiness, dependency analysis, and post-migration validation ensuring zero business impact.
@@ -1289,6 +1356,57 @@
                     <p class="cert-issuer">AWS Workshop - TECHVAAGANZA</p>
                     <p class="cert-issuer">Vaagdevi College of Engineering, Warangal</p>
                     <p class="cert-year">January 2026</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Languages -->
+    <section id="languages" style="background: var(--bg-secondary);">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">Communication</div>
+                <h2>Spoken Languages</h2>
+                <p class="section-description">
+                    Languages I read, write, and speak
+                </p>
+            </div>
+
+            <div class="languages-grid">
+                <div class="language-card">
+                    <div class="language-header">
+                        <span class="language-name">Telugu</span>
+                        <span class="language-level">Advanced</span>
+                    </div>
+                    <p class="language-skills">Read • Write • Speak</p>
+                    <div class="proficiency-bar"><div class="proficiency-fill" style="width: 100%;"></div></div>
+                </div>
+
+                <div class="language-card">
+                    <div class="language-header">
+                        <span class="language-name">English</span>
+                        <span class="language-level">Advanced</span>
+                    </div>
+                    <p class="language-skills">Read • Write • Speak</p>
+                    <div class="proficiency-bar"><div class="proficiency-fill" style="width: 100%;"></div></div>
+                </div>
+
+                <div class="language-card">
+                    <div class="language-header">
+                        <span class="language-name">Hindi</span>
+                        <span class="language-level">Intermediate</span>
+                    </div>
+                    <p class="language-skills">Read • Write • Speak</p>
+                    <div class="proficiency-bar"><div class="proficiency-fill" style="width: 65%;"></div></div>
+                </div>
+
+                <div class="language-card">
+                    <div class="language-header">
+                        <span class="language-name">Spanish</span>
+                        <span class="language-level">Basic</span>
+                    </div>
+                    <p class="language-skills">Read • Write • Speak</p>
+                    <div class="proficiency-bar"><div class="proficiency-fill" style="width: 30%;"></div></div>
                 </div>
             </div>
         </div>
