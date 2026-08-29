@@ -86,18 +86,6 @@ Presented hands-on training on Amazon S3 during a 2-day AWS workshop at TECHVAAG
 ### AWS Student Community Day 2026 — MJCET, Hyderabad
 Attended a day of learning across five speaker sessions covering Cloud Security, AI, and AWS services. Connected with mentors and fellow community members, staying active in the AWS community.
 
----
-
-## Featured Podcast
-
-**🎙️ Aviz Academy Podcast — "From Preparation to Placement"**
-
-Invited by my mentor Avinash Reddy Thipparthi to share my AWS journey — how I prepared, tackled interviews, and secured a role at Accenture.
-
-▶️ [Watch on YouTube](https://youtu.be/S9_54voBWww)
-
----
-
 ## Education & Certifications
 
 - 🎓 **Bachelor of Technology** — Electronics and Communication Engineering
